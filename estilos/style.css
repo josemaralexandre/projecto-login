@@ -94,6 +94,7 @@ form > div.campo > input{
     background-color: #7bfffb;
     border-radius: 8px;
     font-size: 1em;
+    padding-left: 10px;
 }
 
 form > div.campo > input:focus-within{

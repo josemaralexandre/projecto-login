@@ -7,6 +7,7 @@
     }
 
     section#login{
+        height: 350px;
         width: 80vw;
     }  
 
@@ -23,17 +24,19 @@
     }
 
     section#login > div#formulario > p{
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 10px 0px;
     }
 }
 
-/*--------------Versão para Telefone------------------*/
+/*------------Versão para telas maiores----------------*/
 @media screen and (min-width: 996px){
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
+        height: 320px;
         width: 950px;
     }  
 
@@ -50,6 +53,7 @@
     }
     
     section#login > div#formulario > p{
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 10px 0px;
     }
 }
